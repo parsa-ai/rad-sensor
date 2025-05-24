@@ -9,20 +9,22 @@ function Header() {
       href: '/'
     },
     {
-      id: 1,
-      innerHtml: 'About',
-      href: '/About'
-    },
-    {
-      id: 2,
-      innerHtml: 'Contact',
-      href: '/Contact'
-    },
-    {
       id: 3,
       innerHtml: <ProductNavBtn />,
       href: null // چون لینک نیست، null می‌ذاریم
     },
+     {
+      id: 2,
+      innerHtml: 'Contact',
+      href: '/Contact'
+    },
+
+    {
+      id: 1,
+      innerHtml: 'About',
+      href: '/About'
+    },
+   
     {
       id: 4,
       innerHtml: 'Blogs',
@@ -37,7 +39,7 @@ function Header() {
   ]
 
   return (
-    <header className='bg-[#C8E4C01A] h-16 w-full flex justify-center items-center gap-4 px-6 fixed shadow-[0_0px_9px_0_#8D8D8D40] text-[#818181] font-medium z-50'>
+    <header className='bg-[#C8E4C01A] h-16 w-full flex justify-center items-center gap-4 px-6 sticky shadow-[0_0px_9px_0_#8D8D8D40] text-[#818181] font-medium z-50'>
       {navItems.map((item) => {
         if (item.href === null) {
           return <div key={item.id}>{item.innerHtml}</div>
