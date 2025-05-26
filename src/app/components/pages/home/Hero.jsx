@@ -1,5 +1,5 @@
 import React from 'react'
-import Container from '../Container'
+import Container from '../../ui/Container'
 
 function Hero() {
     return (
@@ -20,13 +20,18 @@ function Hero() {
                         </div>
                     </article>
                     <article className='flex-1 h-full flex justify-center items-center'>
-                        <img src="/images/ED.png" alt="" />
+                        <img src="/images/Ec.png" alt="" />
                     </article>
                 </section>
             </Container>
-            <img className='absolute w-full top-0 -z-10' src="/images/text1.png" alt="" />
-            <img className='absolute  top-0 -z-10 ' src="/images/text2.png" alt="" />
-            <img className='absolute  top-0 -z-10' src="/images/text2.png" alt="" />
+            <div className='w-full h-[900px] overflow-hidden absolute top-0 -z-10' style={{
+    WebkitMaskImage: 'linear-gradient(to bottom, black 80%, transparent)',
+    maskImage: 'linear-gradient(to bottom, black 80%, transparent)'
+  }}>
+                <img className=' w-full opacity-50' src="/images/text1.png" alt=""  />
+            </div>
+            {/* <img className='absolute  top-0 -z-10 ' src="/images/text2.png" alt="" /> */}
+            <img className='absolute  top-0 -z-10 opacity-30' src="/images/text3.png" alt="" />
 
         </div>
     )
