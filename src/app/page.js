@@ -2,6 +2,7 @@
 import Hero from "./components/pages/home/Hero";
 import Partners from "./components/pages/home/Partners";
 import Solutions from "./components/pages/home/Solutions";
+import Years from "./components/pages/home/Years";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <Hero></Hero>
       <Solutions></Solutions>
       <Partners></Partners>
+      <Years></Years>
     </main>
   );
 }

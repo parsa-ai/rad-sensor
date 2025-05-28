@@ -5,8 +5,8 @@ function Partners() {
   return (
     <section>
       <Titles>Our Partners</Titles>
-      <article className='w-full overflow-hidden my-14'>
-        <InfiniteSlider2></InfiniteSlider2>
+      <article className='w-full overflow-hidden mt-24'>
+        <InfiniteSlider></InfiniteSlider>
       </article>
     </section>
   )
@@ -17,10 +17,9 @@ const images = [
   "/images/Partners/p2.png",
   "/images/Partners/p3.png",
   "/images/Partners/p4.png",
-
 ];
 
-const InfiniteSlider2 = () => {
+const InfiniteSlider = () => {
   return (
     <div className="w-full mx-auto overflow-hidden [mask-image:linear-gradient(to_right,transparent_0,black_128px,black_calc(100%-128px),transparent_100%)] mix-blend-luminosity">
       <div className="flex animate-[slide_10s_linear_infinite] whitespace-nowrap  ">
