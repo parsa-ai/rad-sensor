@@ -1,4 +1,5 @@
 
+import About from "./components/pages/home/About";
 import Hero from "./components/pages/home/Hero";
 import Partners from "./components/pages/home/Partners";
 import Solutions from "./components/pages/home/Solutions";
@@ -11,6 +12,7 @@ export default function Home() {
       <Solutions></Solutions>
       <Partners></Partners>
       <Years></Years>
+      <About></About>
     </main>
   );
 }

@@ -1,6 +1,6 @@
-function Container({ children }) {
+function Container({ children , className , ...rest }) {
     return (
-        <div className="w-10/12 m-auto ">
+        <div className={`w-10/12 m-auto ${className}`} {...rest}>
             {children}
         </div>
     )

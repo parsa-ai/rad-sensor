@@ -5,8 +5,8 @@ import { Montserrat } from 'next/font/google';
 
 const montserrat = Montserrat({
   subsets: ['latin'],
-  weight: ['400', '500' , '600','700'], // وزن‌های مورد نیاز
-  variable: '--font-montserrat', // (اختیاری) برای استفاده به عنوان CSS Variable
+  weight: ['300', '400', '500' , '600','700'], 
+  variable: '--font-montserrat', 
   display: 'swap',
 });
 
