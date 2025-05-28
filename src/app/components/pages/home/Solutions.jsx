@@ -37,7 +37,7 @@ function Solutions() {
     }
   ]
   return (
-    <section className='w-full h-full mt-20'>
+    <section className='w-full h-full'>
       <Container>
         <Titles>What are our solutions?</Titles>
         <article className='flex flex-col gap-10 mt-16'>

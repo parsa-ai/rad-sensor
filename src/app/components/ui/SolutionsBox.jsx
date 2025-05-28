@@ -19,7 +19,7 @@ function SolutionsBox({ data = {
                     maskImage: 'radial-gradient(circle at center, black 50%, transparent 100%)',
                     WebkitMaskImage: 'radial-gradient(circle at center, black 30%, transparent 80%)',
                 }}>
-                    <SolutionsBG className='absolute ' ></SolutionsBG>
+                    <SolutionsBG className='absolute' ></SolutionsBG>
 
                 </div>
 
@@ -28,8 +28,6 @@ function SolutionsBox({ data = {
                 <div className={`absolute z-10 my-10 text-white flex flex-col h-40 ${data?.isRight ? 'mx-15' : 'mx-36'} w-96`} >
                     <h5 className="text-xl font-bold">{data?.title}</h5>
                     <span className="text-base font-normal">{data?.dis}</span>
-
-                    {/* لینک در پایین باکس ثابت باشه */}
                     <Link
                         className="
         w-28 h-8 absolute top-1/2
