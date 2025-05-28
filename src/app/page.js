@@ -3,6 +3,7 @@ import About from "./components/pages/home/About";
 import Hero from "./components/pages/home/Hero";
 import Partners from "./components/pages/home/Partners";
 import Solutions from "./components/pages/home/Solutions";
+import WhyUs from "./components/pages/home/WhyUs";
 import Years from "./components/pages/home/Years";
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <Partners></Partners>
       <Years></Years>
       <About></About>
+      <WhyUs></WhyUs>
     </main>
   );
 }

@@ -3,7 +3,7 @@ import HomeAbout from "../../ui/icons/HomeAbout"
 
 function About() {
     return (
-        <section className="relative flex items-center justify-center">
+        <section className="relative flex items-center justify-center mb-28">
             <Container className="flex justify-between gap-28 h-[470px]">
                 <article className="flex-1  relative" >
                     <div className="w-[400px] h-[270px] absolute top-0 right-0 z-0 rounded-2xl">
@@ -24,7 +24,7 @@ function About() {
                     <p className="text-white text-xl/[30px] text-justify tracking-[7%] font-light">Rad Sensor  is a tech-driven manufacturing company based in the Khuzestan Science & Technology Park. As part of Mazid holding, we specialize in localizing electrochemical sensors — proudly producing electrical conductivity sensors with in-house technology. Backed by experts and academic collaboration, we’re among the few in Iran with this capability. Our integrated network delivers smart engineering solutions across industries.</p>
                 </article>
             </Container>
-            <img src="/images/HomeAbout/p3.png"  className='absolute  left-0'/>
+            <img src="/images/HomeAbout/p3.png"  className='absolute left-0'/>
             <HomeAbout className='absolute w-full h-full bottom-[-230px]'/>
         </section>
     )
