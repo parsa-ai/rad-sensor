@@ -1,5 +1,6 @@
 
 import About from "./components/pages/home/About";
+import Blog from "./components/pages/home/Blog";
 import Hero from "./components/pages/home/Hero";
 import Partners from "./components/pages/home/Partners";
 import Solutions from "./components/pages/home/Solutions";
@@ -15,6 +16,7 @@ export default function Home() {
       <Years></Years>
       <About></About>
       <WhyUs></WhyUs>
+      <Blog></Blog>
     </main>
   );
 }
