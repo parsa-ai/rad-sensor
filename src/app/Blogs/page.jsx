@@ -2,6 +2,7 @@ import Link from 'next/link'
 import Container from '../components/ui/Container'
 import TheBlog from '../components/pages/Blogs/TheBlog'
 import ArrowIcon from '../components/ui/icons/ArrowIcon'
+import { BlogItems } from '../components/data/data'
 
 
 function page() {
@@ -12,50 +13,7 @@ function page() {
     title: 'Advancing Lab & Healthcare Standards',
     text: "In the healthcare industry, accuracy and reliability are critical. whether you're conducting laboratory tests, monitoring water used in  medical processes, or ensuring environmental...",
   }
-  const BlogItems = [
-    {
-      id: 0,
-      image: '/images/Blogs/b1.png',
-      category: 'Chemical Industry',
-      title: 'Accurate Data for Chemical Process Control',
-      text: "The chemical industry hinges on precision and safety to ensure product quality...",
-    },
-    {
-      id: 1,
-      image: '/images/Blogs/b2.png',
-      category: 'Oil & Gas',
-      title: 'Can Sensors Boost Oil Operations?',
-      text: "The oil and gas industry operates in some of the most challenging  environments, where..."
-    },
-    {
-      id: 2,
-      image: '/images/Blogs/b3.png',
-      category: 'Health',
-      title: 'Innovative Sensors for Healthcare Excellence',
-      text: "Advanced sensors (EC, CTD, pH, Colorine) accurately monitor water quality, solution parameters..."
-    },
-    {
-      id: 3,
-      image: '/images/Blogs/b4.png',
-      category: 'Oil & Gas',
-      title: 'Optimizing Drilling Fluids with EC Sensors',
-      text: "Understanding the electrical conductivity of formation and produced waters helps..."
-    },
-    {
-      id: 4,
-      image: '/images/Blogs/b5.png',
-      category: 'Chemical Industry',
-      title: 'Real-Time PH Control in Reactions',
-      text: "In chemical manufacturing, minor pH shifts can ruin entire batches. Smart sensors enable precise...",
-    },
-    {
-      id: 5,
-      image: '/images/Blogs/b6.png',
-      category: 'Hydrology',
-      title: 'What’s Really Flowing Beneath the Surface?',
-      text: "From groundwater salinity to temperature shifts, knowing what’s happening below helps..."
-    },
-  ]
+
   return (
     <main>
       <h1 className='w-full h-36 flex justify-center items-center text-6xl text-[#3B3B3B] bg-[linear-gradient(91.72deg,#B2B2B2_-16.43%,_#D9D9D9_107.16%)] shadow-[0px_30px_63.2px_-16px_#FFFFFF2B] mb-40 font-semibold'>Blog</h1>
