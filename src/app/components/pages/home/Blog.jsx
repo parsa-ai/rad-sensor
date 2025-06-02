@@ -74,7 +74,7 @@ function Blog() {
         }
     }
     return (
-        <section className='flex flex-col  justify-center items-center w-full gap-7'>
+        <section className='flex flex-col  justify-center items-center w-full gap-7 mb-20'>
             <article className='text-[#3EADE5] text-base font-bold flex justify-center h-fit items-center gap-1'><div className='w-2 h-2 bg-[#D9D9D9] rounded-2xl' />Insights</article>
             <article className='flex flex-col items-center'>
                 <h4 className='text-[#ADADAD] font-bold text-5xl'>See the Science</h4>
