@@ -12,6 +12,11 @@ const montserrat = Montserrat({
 });
 
 
+export const metadata = {
+  title: "Rad Sensor",
+  description: "High‑Accuracy EC/TDS & CTD Sensors, Made in Iran",
+};
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">

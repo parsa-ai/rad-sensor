@@ -43,7 +43,7 @@ function ProductNavBtn() {
           ${isOpen ? "opacity-100" : "opacity-0 pointer-events-none"}
         `}
             >
-                <div className="w-full bg-[#FFFFFF0F] rounded-2xl border border-[#3B3B3BF7] p-1 ">
+                <div className="w-full bg-[#292731aa] backdrop-blur-xl rounded-2xl border border-[#3B3B3BF7] p-1 ">
                     {Products.map((item) => {
                         return (
                             <Link  className="w-full h-10 text-sm flex justify-center items-center rounded-xl text-[#F7F7F7] hover:bg-[#F7F7F714] border border-transparent hover:border-[#929292] transition" key={item.id} href={item.href}>
