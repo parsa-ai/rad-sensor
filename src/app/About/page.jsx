@@ -89,7 +89,38 @@ function page() {
                 <span className="text-base font-medium">CEO & Co - Founder</span>
               </div>
             </div>
-            
+
+          </article>
+        </section>
+        <section className="flex flex-col gap-24">
+          <h3 className="text-4xl font-medium">
+            Our Mission & Vision
+          </h3>
+          <article className="flex gap-56">
+            <div className="flex-1/2 flex flex-col gap-5">
+              <h6 className="text-2xl font-medium">
+                Mission
+              </h6>
+              <div className="relative flex ">
+                <div className="w-4 h-4 absolute -left-14 top-1 rounded-full bg-[#42C2FA] shadow-[0px_0px_8px_-1px_#6BD2FF]" />
+                <p>
+                  At Rad Sensor, we design intelligent solutions for labs and healthcare, driven
+                  by innovation, precision, and expertise — building a smarter, healthier future.
+                </p>
+              </div>
+            </div>
+            <div className="flex-1/2 flex flex-col gap-5">
+              <h6 className="text-2xl font-medium">
+                Vision
+              </h6>
+              <div className="relative flex ">
+                <div className="w-4 h-4 absolute -left-14 top-1 rounded-full bg-[#42C2FA] shadow-[0px_0px_8px_-1px_#6BD2FF]" />
+                <p>
+                To become the leading sensor technology brand in the Middle East, redefining global standards in precision, intelligence, and health-focused innovation.
+
+                </p>
+              </div>
+            </div>
           </article>
         </section>
       </Container>
