@@ -8,19 +8,19 @@ function ProductNavBtn() {
     const Products = [
         {
             id: 0,
-            href: '/ctd',
+            href: '/Products/ctd',
             text: 'CTD Sensor'
         }, {
             id: 1,
-            href: '/ec',
+            href: '/Products/ec',
             text: 'EC Sensor'
         }, {
             id: 2,
-            href: '/cl',
+            href: '/Products/cl',
             text: 'CL Sensor'
         }, {
             id: 3,
-            href: '/ph',
+            href: '/Products/ph',
             text: 'PH Sensor'
         },
     ]

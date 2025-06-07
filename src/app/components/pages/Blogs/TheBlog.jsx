@@ -18,10 +18,10 @@ function TheBlog({ data }) {
             <h6 className="text-2xl ">
                 {data.title}
             </h6>
-            <p className="text-[#AEAEAE] text-lg">
+            <div className="text-[#AEAEAE] text-lg">
                 {data.text}
                 <Link href={'/Blogs/' + data.id} className="underline text-white">Read more</Link>
-            </p>
+            </div>
         </div>
     )
 }
