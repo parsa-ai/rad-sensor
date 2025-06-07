@@ -1,4 +1,6 @@
+import Link from "next/link"
 import Container from "../components/ui/Container"
+import ArrowIcon from "../components/ui/icons/ArrowIcon"
 
 function page() {
   return (
@@ -116,12 +118,22 @@ function page() {
               <div className="relative flex ">
                 <div className="w-4 h-4 absolute -left-14 top-1 rounded-full bg-[#42C2FA] shadow-[0px_0px_8px_-1px_#6BD2FF]" />
                 <p>
-                To become the leading sensor technology brand in the Middle East, redefining global standards in precision, intelligence, and health-focused innovation.
+                  To become the leading sensor technology brand in the Middle East, redefining global standards in precision, intelligence, and health-focused innovation.
 
                 </p>
               </div>
             </div>
           </article>
+        </section>
+        <section className='flex flex-col justify-center items-center gap-10 '>
+          <div className="flex flex-col justify-center items-center gap-3">
+            <h6 className='text-4xl text-white font-medium text-center'>Looking for tailored solutions?</h6>
+            <p>Powering ideas — from bold concepts to real impact</p>
+          </div>
+          <Link href={'/Contact'} className='w-[267px] h-[57px] flex justify-center items-center text-[#3B3B3B] bg-[#f7f7f7] rounded-lg gap-1.5 font-medium text-lg ' >
+           Get in Touch
+            <ArrowIcon className={'fill-black w-5 rotate-45'}></ArrowIcon>
+          </Link>
         </section>
       </Container>
     </main>

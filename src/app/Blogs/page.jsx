@@ -35,9 +35,9 @@ function page() {
           })}
         </section>
         <section className='flex flex-col justify-center items-center gap-10 my-32'>
-          <h6 className='text-4xl text-white font-medium text-center'>Looking for tailored solutions?</h6>
+          <h6 className='text-4xl text-white font-medium text-center'>Let’s Build the Future Together!</h6>
 
-          <Link href={'/Contact'} className='w-[267px] h-[57px] flex justify-center items-center text-black bg-[#f7f7f7] rounded-lg gap-1.5 font-medium text-lg ' >
+          <Link href={'/Contact'} className='w-[267px] h-[57px] flex justify-center items-center text-[#3B3B3B] bg-[#f7f7f7] rounded-lg gap-1.5 font-medium text-lg ' >
           Contact Us Today
           <ArrowIcon className={'fill-black w-5 rotate-45'}></ArrowIcon>
           </Link>
