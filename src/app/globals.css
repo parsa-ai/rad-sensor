@@ -27,3 +27,6 @@ div#blogBox ul li {
 div#blogBox ul li h4{
     @apply text-lg font-semibold
 }
+/* *{
+    outline: 1px solid #fff;
+} */

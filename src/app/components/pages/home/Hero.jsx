@@ -3,7 +3,7 @@ import Container from '../../ui/Container'
 
 function Hero() {
     return (
-        <div className='relative'>
+        <div className='relative mt-14'>
             <Container>
                 <section className='h-[calc(100vh-64px)] w-full flex '>
                     <article className='flex-1 h-full flex flex-col justify-center gap-5'>

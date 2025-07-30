@@ -1,5 +1,8 @@
-import Container from "@/app/components/ui/Container"
-import ArrowIcon from "@/app/components/ui/icons/ArrowIcon";
+// import Container from "@/app/components/ui/Container"
+// import ArrowIcon from "@/app/components/ui/icons/ArrowIcon";
+
+import ArrowIcon from "../../components/ui/icons/ArrowIcon";
+import Container from "../../components/ui/Container";
 
 function page() {
   const data = {
@@ -80,7 +83,7 @@ function page() {
         <div className="w-full flex justify-center items-center mt-10">
           <button className='w-[267px] h-[57px] flex justify-center items-center text-[#3B3B3B] bg-[#f7f7f7] rounded-lg gap-1.5 font-medium text-lg ' >
             Download DataSheet
-            <ArrowIcon className={'fill-black w-5 rotate-45'}></ArrowIcon>
+            <ArrowIcon className={'fill-black w-5 rotate-45'}/>
           </button>
         </div>
       </section>

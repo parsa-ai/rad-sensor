@@ -9,14 +9,14 @@ import Years from "./components/pages/home/Years";
 
 export default function Home() {
   return (
-    <main className="flex flex-col gap-24">
-      <Hero></Hero>
-      <Solutions></Solutions>
-      <Partners></Partners>
+    <main className="flex flex-col gap-24 ">
+      <Hero ></Hero>
+      {/* <Solutions></Solutions> */}
+      {/* <Partners></Partners>
       <Years></Years>
       <About></About>
       <WhyUs></WhyUs>
-      <Blog></Blog>
+      <Blog></Blog> */}
     </main>
   );
 }
