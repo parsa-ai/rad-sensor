@@ -3,24 +3,24 @@ import { useEffect, useState, useRef } from 'react';
 
 
 function Years() {
-      const countUp1 = useCountUp(5);
-  const countUp2 = useCountUp(4);
-  const countUp3 = useCountUp(20, 2000);
+      const countUp1 = useCountUp(10 , 1500);
+  const countUp2 = useCountUp(15 , 2000);
+  const countUp3 = useCountUp(4 , 1000);
 
   const articleItems = [
     { id: 1, text: 'Years', obj: countUp1 },
-    { id: 2, text: 'Solution', obj: countUp2 },
-    { id: 3, text: 'Client', obj: countUp3 },
+    { id: 2, text: 'Business Partners', obj: countUp2 },
+    { id: 3, text: 'Solutions', obj: countUp3 },
   ];
 
     return (
-        <section className='bg-[linear-gradient(91.72deg,#B2B2B2_-16.43%,#D9D9D9_107.16%)] h-80 flex justify-center items-center relative ' >
-            <main className='w-1/2 flex justify-between items-center'>
+        <section className='bg-[linear-gradient(91.72deg,#B2B2B2_-16.43%,#D9D9D9_107.16%)] p-10 flex md:h-80 justify-center items-center relative ' >
+            <main className='w-4/5 flex flex-col md:flex-row gap-14 justify-between items-center'>
                 {articleItems.map((items) => {
                     return (
-                        <article className='flex flex-col items-center w-36' ref={items.obj.ref} key={items.id}>
+                        <article className='flex flex-col items-center ' ref={items.obj.ref} key={items.id}>
                             <h5 className='text-7xl text-[#2C81AA] font-bold'>+{items.obj.count}</h5>
-                            <p className='text-3xl text-[#2C81AA] font-bold'>{items.text}</p>
+                            <p className='text-3xl text-[#2C81AA] font-bold w-36 md:w-auto text-center '>{items.text}</p>
                         </article>
                     )
                 })}
