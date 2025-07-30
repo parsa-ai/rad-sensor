@@ -5,7 +5,7 @@ function Partners() {
   return (
     <section>
       <Titles>Our Partners</Titles>
-      <article className='w-full overflow-hidden mt-24'>
+      <article className='w-full overflow-hidden mt-7 md:mt-24'>
         <InfiniteSlider></InfiniteSlider>
       </article>
     </section>
