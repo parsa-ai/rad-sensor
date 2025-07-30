@@ -15,8 +15,8 @@ export default function Home() {
        <Partners></Partners>
       <Years></Years>
       <About></About>
-      {/*<WhyUs></WhyUs>
-      <Blog></Blog> */}
+      <WhyUs></WhyUs>
+      {/*<Blog></Blog> */}
     </main>
   );
 }
