@@ -1,5 +1,5 @@
-import { BlogItems } from "@/app/components/data/data"
-import Container from "@/app/components/ui/Container"
+import Container from "../../components/ui/Container"
+import { BlogItems } from "../../components/data/data"
 
 export default async function Page({ params }) {
   const { idBlog } = await params

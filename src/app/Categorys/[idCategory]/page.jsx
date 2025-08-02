@@ -1,7 +1,7 @@
-import { BlogItems } from '@/app/components/data/data'
-import TheBlog from '@/app/components/pages/Blogs/TheBlog'
-import Container from '@/app/components/ui/Container'
-import ArrowIcon from '@/app/components/ui/icons/ArrowIcon'
+import { BlogItems } from '../../components/data/data' 
+import TheBlog from '../../components/pages/Blogs/TheBlog'
+import Container from '../../components/ui/Container'
+import ArrowIcon from '../../components/ui/icons/ArrowIcon'
 import Link from 'next/link'
 
 

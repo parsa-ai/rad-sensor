@@ -13,7 +13,7 @@ function Hero() {
                                 <span>Real</span>
                                 <span>
                                     Tech
-                                    <span className='text-6xl/[1px] md:text-9xl/[1px] text-[#16B2FF]'>.</span>
+                                    <span className='text-6xl/[1px]  md:text-9xl/[1px] text-[#16B2FF]'>.</span>
                                 </span></div>
                             <div className='flex   gap-2 md:gap-4 items-center justify-center md:justify-start'>
                                 <span>Real</span>
