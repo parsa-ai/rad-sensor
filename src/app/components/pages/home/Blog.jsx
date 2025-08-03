@@ -1,6 +1,5 @@
 'use client'
 import Link from 'next/link'
-import React, { useRef, useState } from 'react'
 import SliderArrow from '../../ui/icons/SliderArrow'
 
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -11,8 +10,6 @@ import ArrowIcon from 'app/components/ui/icons/ArrowIcon';
 
 
 function Blog() {
-    const [start, setStart] = useState(0)
-    const scrollRef = useRef(null)
     const Blogs = [
         {
             id: 0,
@@ -44,42 +41,6 @@ function Blog() {
         }
     ]
 
-    // function ScrollEd(x) {
-    //     scrollRef.current.scrollBy({
-    //         left: x,
-    //         top: 0,
-    //         behavior: 'smooth'
-    //     });
-    // }
-
-    // function ScrollToZero(x) {
-    //     scrollRef.current.scrollTo({
-    //         left: x,
-    //         top: 0,
-    //         behavior: 'smooth'
-    //     });
-    // }
-
-    // function BtnRight() {
-    //     if (start >= scrollRef.current.offsetWidth - 562) {
-    //         setStart(0)
-    //         ScrollToZero(0)
-    //     }
-    //     else {
-    //         setStart(start + 562)
-    //         ScrollEd(562)
-    //     }
-    // }
-    // function BtnLeft() {
-    //     if (start <= 0) {
-    //         setStart(1124)
-    //         ScrollToZero(1124)
-    //     }
-    //     else {
-    //         setStart(start - 562)
-    //         ScrollEd(-562)
-    //     }
-    // }
     return (
         <section className='flex flex-col justify-center items-center w-full gap-7 mb-20 '>
             <article className='text-[#3EADE5] text-base font-bold flex justify-center h-fit items-center gap-1'>
@@ -111,20 +72,20 @@ function Blog() {
                         >
                             <Link
                                 className='w-full h-full flex items-center gap-4'
-                                href={'/blog/' + blog.id}
+                                href={'/Blogs/' + blog.id}
                             >
                                 <article className='flex-1 pl-7 overflow-hidden flex flex-col gap-2'>
                                     <div className='flex gap-2'>
                                         {blog.categorys.map((category, index) => (
                                             <span
-                                                className='bg-[#BCBCBC] py-2 px-4 rounded-full text-xs font-semibold'
+                                                className='bg-[#BCBCBC] text-[#3B3B3B] py-2 px-4 rounded-full text-xs font-semibold'
                                                 key={index}
                                             >
                                                 {category}
                                             </span>
                                         ))}
                                     </div>
-                                    <h5 className='text-2xl font-semibold'>{blog.title}</h5>
+                                    <h5 className='text-2xl font-semibold text-[#141414]'>{blog.title}</h5>
                                     <p className='font-medium text-base text-[#3B3B3B] w-[250px] line-clamp-3'>
                                         {blog.text}
                                     </p>
@@ -168,7 +129,7 @@ function Blog() {
                             key={blog.id}
                             className='!w-full  h-[222px] px-10 flex-shrink-0'
                         >
-                            <div className='w-full h-full bg-[#C6C5C7] rounded-2xl p-2'>
+                            <div className='w-full h-full bg-[#C6C5C7] rounded-2xl p-5'>
                                 <Link
                                     className='w-full h-full flex flex-col items-center gap-4'
                                     href={'/blog/' + blog.id}
@@ -215,8 +176,8 @@ function Blog() {
 
             {/* دکمه نمایش همه */}
             <Link
-                className='h-10 w-32 flex justify-center items-center bg-[#ffffff] rounded-2xl font-semibold shadow-[0px_0px_11.7px_0px_#FFFFFF40] text-[#515151]'
-                href={'/blog'}
+                className='h-10 w-32 flex justify-center items-center bg-[#ffffff] rounded-lg font-semibold shadow-[0px_0px_11.7px_0px_#FFFFFF40] text-[#515151]'
+                href={'/Blogs'}
             >
                 View all
                 <ArrowIcon className='rotate-[45deg] h-7 ml-1 fill-[#515151]' />

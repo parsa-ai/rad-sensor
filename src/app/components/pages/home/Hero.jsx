@@ -3,7 +3,7 @@ import Container from '../../ui/Container'
 
 function Hero() {
     return (
-        <div className='relative mt-14'>
+        <div className='relative '>
             <Container>
                 <section className='w-full h-auto md:h-[calc(100vh-64px)] flex flex-col-reverse md:flex-row'>
                     {/* === TEXT SECTION === */}

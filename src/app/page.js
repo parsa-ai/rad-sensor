@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <main className="flex flex-col gap-24 ">
       <Hero ></Hero>
-      {/* <Solutions></Solutions> */}
+      <Solutions></Solutions>
        <Partners></Partners>
       <Years></Years>
       <About></About>

@@ -18,8 +18,8 @@ function TheBlog({ data }) {
             <h6 className="text-2xl ">
                 {data.title}
             </h6>
-            <div className="text-[#AEAEAE] text-lg">
-                {data.text}
+            <div className="text-[#AEAEAE] text-lg ">
+                <span className="line-clamp-2">{data.text}</span>
                 <Link href={'/Blogs/' + data.id} className="underline text-white">Read more</Link>
             </div>
         </div>

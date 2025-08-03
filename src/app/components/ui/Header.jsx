@@ -46,7 +46,7 @@ function Header() {
 
   return (
     <>
-      <header className='bg-[#C8E4C01A] h-16 w-full  justify-center items-center gap-4 px-6 sticky shadow-[0_0px_9px_0_#8D8D8D40] text-[#818181] font-medium z-50 hidden md:flex'>
+      <header className='bg-[#9292924F] h-16 w-full top-0 left-0 backdrop-blur-3xl  justify-center items-center gap-4 px-6 fixed shadow-[0_0px_9px_0_#8D8D8D40] text-[#818181] font-medium z-50 hidden md:flex'>
         {navItems.map((item) => {
           if (item.href === null) {
             return <div key={item.id}>{item.indexContent}</div>
@@ -154,11 +154,11 @@ const Sidebar = ({setIsOpen}) => {
 
 
       {/* Buttons */}
-      <div className="space-y-2 w-full px-7 text-sm ">
-        <button className="w-full  bg-white text-black font-medium py-2 rounded-lg ">
+      <div className="space-y-2 w-full px-7 text-base ">
+        <button className="w-full  bg-white text-black font-medium py-4 rounded-lg ">
           Specifications
         </button>
-        <button onClick={() => setIsOpen(false)} className="w-full border border-white text-white  rounded-lg flex items-center justify-center gap-2">
+        <button onClick={() => setIsOpen(false)} className="w-full border py-2 border-white text-white  rounded-lg flex items-center justify-center gap-2">
           <div className='rotate-[-135deg] '>
             <ArrowIcon className='fill-[#F7F7F7] w-5' />
           </div>
