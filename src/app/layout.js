@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
       <body className={`bg-[#16141F] text-[#F7F7F7] pt-16 ${montserrat.className}`}>
         <Header></Header>
         {children}
-        {/* <Footer></Footer> */}
+        <Footer></Footer>
       </body>
     </html>
   );
