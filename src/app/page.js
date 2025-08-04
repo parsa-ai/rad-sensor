@@ -10,9 +10,9 @@ import Years from "./components/pages/home/Years";
 export default function Home() {
   return (
     <main className="flex flex-col gap-24 ">
-      <Hero ></Hero>
+      <Hero></Hero>
       <Solutions></Solutions>
-       <Partners></Partners>
+      <Partners></Partners>
       <Years></Years>
       <About></About>
       <WhyUs></WhyUs>

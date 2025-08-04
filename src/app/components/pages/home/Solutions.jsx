@@ -17,7 +17,7 @@ function Solutions() {
     {
       id: 0,
       isRight: false,
-      src: '/images/Solutions/Cl.png',
+      src: '/images/Solutions/CL.png',
       title: 'Chlorine Sensor',
       dis: 'Track chlorine levels accurately!',
       url: '/Products/cl'
